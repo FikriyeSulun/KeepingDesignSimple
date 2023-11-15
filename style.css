@@ -1,0 +1,252 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+span {
+    color: #2711e7;
+}
+
+/* Areas */
+
+.first-container {
+    height: 800px;
+    padding: 250px 0;
+    background: url('img/arkaplan1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.second-container {
+    height: 800px;
+    padding: 250px 0;
+    background: url('img/arkaplan2.jpg');
+    background-size: cover;
+    background-position: right 35% bottom 10%;
+}
+
+.third-container {
+    height: 800px;
+    padding: 250px 0;
+    background: url('img/arkaplan3.jpg');
+    background-size: cover;
+    background-position: 25% 75%;
+}
+
+/* Container */
+
+.container {
+    display: grid;
+    justify-content: center;
+}
+
+.text-area-1 {
+    width: 500px;
+    position: relative;
+    text-align: center;
+}
+
+.text-area-2 {
+    width: 500px;
+    position: relative;
+    text-align: center;
+    margin-right: 400px;
+}
+
+.text-area-3 {
+    width: 500px;
+    position: relative;
+    text-align: left;
+    margin-left: 600px;
+}
+
+.text-area-4 {
+    width: 500px;
+    position: relative;
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    font-size: 5.6rem;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-size: 3.2rem;
+    padding-bottom: 30px;
+}
+
+.text-area-p {
+    font-size: 1.6rem;
+    padding: 0 70px;
+    opacity: 0.7;
+}
+
+.text-area-3 p {
+    font-size: 1.6rem;
+    padding: 0 140px 0 0;
+}
+
+.text-area-4 p,
+.form-group p,
+.form-after-p {
+    font-size: 1.4rem;
+}
+
+.form-group p {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.form-after-p {
+    text-align: center;
+    color: rgb(62, 62, 62);
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+
+#button1 {
+    margin: 25px;
+}
+
+#button2 {
+    margin: 25px 0;
+    display: inline-block;
+}
+
+#button3 {
+    background-color: rgb(255, 214, 68);
+    color: black;
+    border: none;
+    border-radius: 15px;
+    padding: 16px 40px;
+    margin-top: 50px;
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.button {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    padding-left: 20px;
+    font-size: 1.6rem;
+}
+
+/* Form */
+
+#questions-form {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    border-bottom: 2px solid #E9ECEF;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form-group input {
+    border: none;
+    width: 100%;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.form-group input:focus {
+    outline: 0;
+}
+
+input::-webkit-input-placeholder {
+    color: #1d1c22;
+}
+
+/* Components */
+
+.Components {
+    width: 860px;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #dde3ef;
+    border-radius: 20px;
+}
+
+.Components h2 {
+    padding-bottom: 15px;
+}
+
+.Components-p {
+    font-size: 1.4rem;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.link {
+    margin-top: 40px;
+}
+
+.link a {
+    text-decoration: underline;
+    color: blue;
+    opacity: 1;
+    padding-left: 0;
+    font-size: 1.4rem;
+}
+
+/* Welcome-to */
+
+.Welcome-to {
+    width: 700px;
+    margin: 30px auto;
+    padding: 80px 45px 70px 45px;
+    background-color: #fefcec;
+    border-radius: 20px;
+}
+
+#thin-h2 {
+    color: rgb(255, 214, 68);
+    font-size: 2.8rem;
+    padding-bottom: 15px;
+}
+
+#bold-h1 {
+    font-size: 7rem;
+    padding-bottom: 0;
+}
+
+.gray {
+    color: rgb(141, 141, 141);
+}
+
+.Welcome-to p {
+    font-size: 1.4rem;
+    opacity: 0.7;
+    margin-bottom: 10px;
+    line-height: 2.8rem;
+}
